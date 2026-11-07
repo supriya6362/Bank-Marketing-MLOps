@@ -1,0 +1,12 @@
+{
+  "lab": "13 - Continuous Prediction Monitoring",
+  "model_used": "bank_marketing_model_v2.joblib",
+  "dataset": "bank-additional-full.csv",
+  "total_records_processed": 41188,
+  "batch_size": 1000,
+  "batches_processed": 42,
+  "overall_accuracy": 0.9109692143342721,
+  "overall_f1": 0.7091759854072488,
+  "prediction_log": "outputs\\lab13_prediction_log.csv",
+  "note": "This is batch-based local monitoring over the supplied labelled dataset, not a live production feed."
+}

@@ -1,0 +1,21 @@
+feature,method,score,threshold,drift_detected
+campaign,PSI,6.391425400136873,0.2,True
+job,Total variation distance,0.2609711684370257,0.1,True
+age,PSI,0.14234848275648684,0.2,False
+day_of_week,Total variation distance,0.016035508345978763,0.1,False
+month,Total variation distance,0.0157380880121396,0.1,False
+education,Total variation distance,0.014625493171471944,0.1,False
+default,Total variation distance,0.009913201820940805,0.1,False
+poutcome,Total variation distance,0.003202427921092583,0.1,False
+contact,Total variation distance,0.002262822458270114,0.1,False
+duration,PSI,0.0019817474197612304,0.2,False
+housing,Total variation distance,0.0017581183611532544,0.1,False
+cons.price.idx,PSI,0.0014938880713118597,0.2,False
+marital,Total variation distance,0.0014864946889225983,0.1,False
+euribor3m,PSI,0.0012898099511110136,0.2,False
+loan,Total variation distance,0.0008009104704097322,0.1,False
+cons.conf.idx,PSI,0.0007826989752521031,0.2,False
+nr.employed,PSI,0.0005629722232772565,0.2,False
+emp.var.rate,PSI,0.00030270880326808616,0.2,False
+previous,PSI,8.728053279383381e-05,0.2,False
+pdays,PSI,0.0,0.2,False

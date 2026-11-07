@@ -1,0 +1,26 @@
+{
+  "lab": "12 - Data Drift Monitoring and Model Retraining",
+  "dataset": "bank-additional-full.csv",
+  "rows": 41188,
+  "features": 20,
+  "target_column": "y",
+  "target_distribution": {
+    "0": 36548,
+    "1": 4640
+  },
+  "baseline_test_metrics": {
+    "accuracy": 0.890507404709881,
+    "precision": 0.5081351689612015,
+    "recall": 0.875,
+    "f1": 0.6429136975455265,
+    "roc_auc": 0.9513727062597293
+  },
+  "drift_detected": true,
+  "drifted_features": [
+    "campaign",
+    "job"
+  ],
+  "selected_model": "V2",
+  "retraining_performed": true,
+  "note": "Incoming feature batch is simulated for the lab demonstration; drift thresholds are illustrative."
+}
