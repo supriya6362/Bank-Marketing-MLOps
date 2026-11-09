@@ -1,0 +1,27 @@
+
+name: Bank Marketing MLOps CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  python-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Check Lab 12 syntax
+        run: python -m py_compile 12_monitoring_and_retraining.py
+
+      - name: Check Lab 13 syntax
+        run: python -m py_compile 13_continuous_prediction_monitoring.py
